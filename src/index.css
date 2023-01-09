@@ -249,7 +249,7 @@ main {
 .filtros select {
     flex: 1;
     padding: 1rem;
-    border: none;
+    border: 2px solid;
     border-radius: 1rem;
     text-align: center;
     background-color: var(--gris-claro);
@@ -285,7 +285,7 @@ main {
 .contenido-gasto {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .contenido-gasto img {
@@ -308,13 +308,15 @@ main {
     color: var(--gris-oscuro);
     font-size: 2.4rem;
     font-weight: 700;
+    text-transform: capitalize;
 }
 .descripcion-gasto .nombre-gasto:hover {
     cursor: pointer;
 }
 .descripcion-gasto .fecha-gasto {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 900;
+    margin-bottom: 0.5rem;
     color: var(--gris-oscuro);
 }
 .descripcion-gasto .fecha-gasto span {
@@ -393,7 +395,7 @@ body .modal {
 }
 
 .swipe-action__trailing {
-    background-color: #db2777;
+    background-color: #f10707;
     margin-bottom: 2rem;
     color: var(--blanco);
 }
